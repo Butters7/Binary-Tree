@@ -16,6 +16,7 @@ namespace BMSTU {
             size_ = 1;
         }
 
+        //Destructor
         ~BinaryTree() {
             DeleteTree(root_);
         }
